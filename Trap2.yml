@@ -1,0 +1,44 @@
+name: Trap2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pip=23.3.1
+  - setuptools=68.2.2
+  - wheel=0.41.2
+  - yaml=0.2.5
+  
+  - numpy=1.26.3
+  - pyyaml=6.0.1
+  - requests=2.31.0
+  - tqdm=4.66.1
+
+  - ipykernel=6.25.0
+  - ipython=8.18.1
+  - jupyter_core=5.5.0
+  - matplotlib-inline=0.1.6
+
+  - pip:
+    - torch==2.0.1
+    - torchvision==0.15.2
+    - transformers==4.44.2
+    - peft==0.15.2
+    - accelerate==0.33.0
+    - datasets==2.21.0
+    - evaluate==0.4.1
+    - safetensors==0.5.3
+    - tokenizers==0.19.1
+    - bitsandbytes==0.43.1
+    - wandb==0.16.2
+    - scikit-learn==0.24.0
+    - scipy==1.11.4
+    - pandas==2.1.4
+    - matplotlib==3.8.2
+    - seaborn==0.13.2
+    - open-clip-torch==3.2.0
+    - openai-clip==1.0.1
+    - pillow==10.2.0
+    - fsspec==2023.10.0
+    - huggingface-hub==0.30.2
+    - optuna==4.3.0
