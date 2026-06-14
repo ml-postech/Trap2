@@ -1,4 +1,3 @@
-# Datasets and cached model weights (downloaded at runtime)
 data
 *.pt
 *.bin
@@ -6,33 +5,21 @@ data
 *.parquet
 *.safetensors
 models--*
-
-# Released adapters (uploaded to HuggingFace separately)
 released_updates/
-
-# Keep these committed dataset assets
 !dataset/shuffled_idxs/
 !dataset/shuffled_idxs/*.pt
 !dataset/8vision_joint_components/
-
-# Training / fine-tuning output directories
 lora_rank*
 qlora_rank*
 full_rank_8vision_train*/
 full_trap2_8vision_train*/
-
-# Caches, logs, editor, local token file
 __pycache__
 *.pyc
 wandb
 logs*
 .vscode
 hf
-
-# Paper PDF (not distributed in the repo)
 *.pdf
-
-# Figures: keep only the two used in the README
 fig/*
 !fig/method.png
 !fig/teaser.png
