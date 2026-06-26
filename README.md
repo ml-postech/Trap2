@@ -228,7 +228,7 @@ If you use this code in your research, please cite our paper:
 @inproceedings{jang2026making,
   title={Making Models Unmergeable via Scaling-Sensitive Loss Landscape},
   author={Minwoo Jang and Hoyoung Kim and Jabin Koo and Jungseul Ok},
-  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  booktitle={Forty-third International Conference on Machine Learning},
   year={2026}
 }
 ```
